@@ -1,0 +1,22 @@
+# .gitignore file
+
+# Ignore the .env file
+.env
+
+# Ignore any other environment files
+*.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folder if you're using one
+venv/
+.env/
+.venv/
+
+# Ignore other files specific to your OS or IDE
+.DS_Store        # macOS
+.idea/           # PyCharm
+.vscode/         # Visual Studio Code
+*.log            # Log files
