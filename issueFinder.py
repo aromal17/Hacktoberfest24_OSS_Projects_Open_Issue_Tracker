@@ -55,4 +55,4 @@ def check_curls_and_notify():
 if __name__ == "__main__":
     while True:
         check_curls_and_notify()
-        time.sleep(os.getenv('SLEEP_DURATION')) 
+        time.sleep(int(os.getenv('SLEEP_DURATION'))) 
